@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Détecter un ancrage temporel périmé malgré un aller-retour correct', 'en': 'Detect stale temporal anchors despite correct round trips', 'es': 'Detectar anclas temporales obsoletas pese a ida y vuelta correcta'}

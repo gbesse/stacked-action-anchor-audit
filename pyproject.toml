@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stacked-action-anchor-audit"
+version = "0.1.0a1"
+description = "FR: Détecter un ancrage temporel périmé malgré un aller-retour correct | EN: Detect stale temporal anchors despite correct round trips | ES: Detectar anclas temporales obsoletas pese a ida y vuelta correcta"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+stacked-action-anchor-audit = "stacked_action_anchor_audit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["stacked_action_anchor_audit*"]
